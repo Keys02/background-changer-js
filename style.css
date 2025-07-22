@@ -1,11 +1,11 @@
 body {
-    font-family: lato, poppins, sans-serif;
+    font-family: poppins, lato, sans-serif;
     background-color: #7fffd4;
 }
 
 section {
     display: flex;
-    min-height: 100vh;
+    min-height: 90vh;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -24,6 +24,7 @@ button {
 
 p {
     font-weight: bolder;
+    font-size: 1.5em;
 }
 
 button:hover {
