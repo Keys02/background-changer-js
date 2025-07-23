@@ -19,7 +19,7 @@ function generateHexColor() {
 }
 
 function changeBackgroundColor() {
-    hexColor = generateHexColor();
+    let hexColor = generateHexColor();
     colorCode.innerHTML = hexColor
     document.body.style.backgroundColor = hexColor;
 }
